@@ -766,7 +766,7 @@ body{
   color: #00CBB8; /* Primary Teal Highlight */
 }
 
-/* --- Feature Row Layout --- */
+
 .feature-row {
   display: flex;
   align-items: center;
@@ -775,7 +775,7 @@ body{
   margin: 0%;
 }
 
-/* Reverses content and media order for standard alternating layout */
+
 .feature-row.reverse {
   flex-direction: row-reverse;
 }
@@ -811,24 +811,21 @@ body{
     flex-shrink:0;
 }
 
-.icon-box i{
+.icon-box{
     font-size:24px;
 }
-
-/* First Icon */
-.bi-grid-3x3-gap-fill{
-    color:#2F327D;
+.yellow i{
+    color: #F4B400;
 }
 
-/* Second Icon */
-.bi-easel-fill{
-    color:#F48C06;
+.orange i{
+    color: #FF9800;
 }
 
-/* Third Icon */
-.bi-people-fill{
-    color:#29B9E7;
+.purple i{
+    color: #2F327D;
 }
+
 
 /* Media Column (Image Placeholders) */
 .feature-media {
