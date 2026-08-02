@@ -41,6 +41,9 @@ body{
     max-width:1200px;
     margin:auto;
     padding:25px 0;
+      position: fixed;
+     z-index: 1000;
+     background-color:#4DC6D8; ; 
 
     display:flex;
     justify-content:space-between;
