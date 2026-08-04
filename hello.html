@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <main class="container">
+    <!-- Left Hero Image Section -->
+    <div class="hero-card">
+      <img src="images/figma pic 1.png" alt="Students in classroom" class="hero-image">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+      </div>
+    </div>
+
+    <!-- Right Login Form Section -->
+    <div class="form-wrapper">
+      <h1 class="form-title">Welcome to lorem..!</h1>
+
+      <!-- Login / Register Toggle -->
+      <div class="toggle-pill">
+        <button class="toggle-btn active" type="button">Login</button>
+        <button class="toggle-btn" type="button">Register</button>
+      </div>
+
+      <p class="form-description">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </p>
+
+      <form onsubmit="event.preventDefault();">
+        <!-- Username Field -->
+        <div class="form-group">
+          <label for="username" class="form-label">User name</label>
+          <div class="input-wrapper">
+            <input type="text" id="username" class="form-input" placeholder="Enter your User name" required>
+          </div>
+        </div>
+
+        <!-- Password Field -->
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <div class="input-wrapper">
+            <input type="password" id="password" class="form-input" placeholder="Enter your Password" required>
+            <span class="toggle-password" id="eyeIcon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path>
+                <line x1="1" y1="1" x2="23" y2="23"></line>
+              </svg>
+            </span>
+          </div>
+        </div>
+
+        <!-- Remember Me & Forgot Password -->
+        <div class="form-options">
+          <label class="checkbox-label">
+            <input type="checkbox"> Remember me
+          </label>
+          <a href="#" class="forgot-link">Forgot Password ?</a>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn-submit" onclick="window.location.href='index.html'">Login</button>
+      </form>
+    </div>
+  </main>
+
+</body>
+</html>
